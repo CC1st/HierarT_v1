@@ -25,81 +25,21 @@ python main.py --cuda --do_test --IM --data_path data/ICEWS14 --load_model_path 
 
 ### ICEWS14
 
-|  Hyperparameter   | Value  |
-|  ----  | ----  |
-| batch_size  | 512 |
-| path_length  | 2 |
-| learning rate of relation level  | 0.0003 |
-| learning rate of entity level  | 0.0001 |
-| dropout rate 0 of relation level  | 0.3 |
-| dropout rate 0 of entity level  | 0.2 |
-| entity cluster size  | 4 |
-| time cluster size  | 6 |
-| relation level beam size  | 10 |
-| entity level beam size  | 60 |
-| beam size  | 80 |
-|store options num | 200 |
-|store actions num | 50 |
-|max option num | 200 |
-|max action num | 100 |
-
-### ICEWS18
-
-|  Hyperparameter   | Value  |
-|  ----  | ----  |
-| batch_size  | 256 |
-| path_length  | 2 |
-| learning rate of relation level  | 0.0001 |
-| learning rate of entity level  | 0.0001 |
-| dropout rate 0 of relation level  | 0.3 |
-| dropout rate 0 of entity level  | 0.2 |
-| entity cluster size  | 6 |
-| time cluster size  | 5 |
-| relation level beam size  | 10 |
-| entity level beam size  | 40 |
-| beam size  | 60 |
-|store options num | 200 |
-|store actions num | 50 |
-|max option num | 200 |
-|max action num | 100 |
-
-## WIKI
-
-|  Hyperparameter   | Value  |
-|  ----  | ----  |
-| batch_size  | 256 |
-| path_length  | 2 |
-| learning rate of relation level  | 0.0001 |
-| learning rate of entity level  | 0.0001 |
-| dropout rate 0 of relation level  | 0.1 |
-| dropout rate 0 of entity level  | 0.1 |
-| entity cluster size  | 7 |
-| time cluster size  | 6 |
-| relation level beam size  | 10 |
-| entity level beam size  | 40 |
-| beam size  | 60 |
-|store options num | 50 |
-|store actions num | 600 |
-|max option num | 100 |
-|max action num | 200 |
-
-## YAGO
-
-|  Hyperparameter   | Value  |
-|  ----  | ----  |
-| batch_size  | 128 |
-| path_length  | 4 |
-| learning rate of relation level  | 0.0001 |
-| learning rate of entity level  | 0.0001 |
-| dropout rate 0 of relation level  | 0.1 |
-| dropout rate 0 of entity level  | 0.1 |
-| entity cluster size  | 7 |
-| time cluster size  | 6 |
-| relation level beam size  | 10 |
-| entity level beam size  | 60 |
-| beam size  | 80 |
-|store options num | None |
-|store actions num | None |
-|max option num | 100 |
-|max action num | 200 |
+|  Hyperparameter  | Value (ICEWS14) | Value (ICEWS18) | Value (WIKI)  | Value (YAGO)  |
+|  ----  |  ----  | ----  |  ----  | ----  |
+| batch_size  | 512 |256 | 256 | 128 |
+| path_length  | 2 | 2 | 2 | 4 |
+| learning rate of relation level  | 0.0003 | 0.0001 | 0.0001 | 0.0001 |
+| learning rate of entity level  | 0.0001 | 0.0001 | 0.0001 | 0.0001 |
+| dropout rate 0 of relation level  | 0.3 | 0.3 | 0.1 | 0.1 |  
+| dropout rate 0 of entity level  | 0.2 | 0.2 | 0.1 | 0.1 |
+| entity cluster size  | 4 | 6 | 7 | 7 |
+| time cluster size  | 6 | 5 | 6 | 6 |
+| relation level beam size  | 10 | 10 | 10 | 10 |
+| entity level beam size  | 60 | 40 | 40 | 60 |
+| beam size  | 80 | 60 | 60 | 80 |
+|store options num | 200 | 200 | 50 | None |
+|store actions num | 50 | 50 | 600 | None |
+|max option num | 200 | 200 | 100 | 100 |
+|max action num | 100 | 100 | 200 | 200 |
 
