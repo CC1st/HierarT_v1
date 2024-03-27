@@ -23,7 +23,6 @@ python main.py --cuda --do_test --IM --data_path data/ICEWS14 --load_model_path 
 
 ## Hyperparameter Settings
 
-### ICEWS14
 
 |  Hyperparameter  | Value (ICEWS14) | Value (ICEWS18) | Value (WIKI)  | Value (YAGO)  |
 |  ----  |  ----  | ----  |  ----  | ----  |
