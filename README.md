@@ -35,8 +35,8 @@ python main.py --cuda --do_test --IM --data_path data/ICEWS14 --load_model_path 
 | entity cluster size  | 4 | 6 | 7 | 7 |
 | time cluster size  | 6 | 5 | 6 | 6 |
 | relation level beam size  | 10 | 10 | 10 | 10 |
-| entity level beam size  | 60 | 40 | 40 | 60 |
-| beam size  | 80 | 60 | 60 | 80 |
+| entity level beam size  | 60 | 40 | 60 | 60 |
+| beam size  | 80 | 60 | 80 | 80 |
 |store options num | 200 | 200 | 50 | None |
 |store actions num | 50 | 50 | 600 | None |
 |max option num | 200 | 200 | 100 | 100 |
